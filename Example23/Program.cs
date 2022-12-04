@@ -1,4 +1,17 @@
-﻿Console.Write("Enter the length of the array: ");
+﻿Console.Clear();
+Console.WriteLine("Example 23!");
+Thread.Sleep(1000);
+Console.Clear();
+Console.Write("Loading");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(1700);
+Console.Clear();
+Console.Write("Enter the length of the array: ");
 int countDigit = int.Parse(Console.ReadLine());
 Console.Write("Enter the power of the array: ");
 int powerDigit = int.Parse(Console.ReadLine());
