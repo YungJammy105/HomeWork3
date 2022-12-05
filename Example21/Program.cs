@@ -1,4 +1,17 @@
-﻿double[] coordinatA = new double[3];
+﻿Console.Clear();
+Console.WriteLine("Example 21!");
+Thread.Sleep(1000);
+Console.Clear();
+Console.Write("Loading");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(1700);
+Console.Clear();
+double[] coordinatA = new double[3];
 double[] coordinatB = new double[3];
 coordinatA = FillArrayA(coordinatA);
 coordinatB = FillArrayB(coordinatB);
