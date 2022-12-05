@@ -1,4 +1,18 @@
-﻿bool Int = int.TryParse(Console.ReadLine(), out int num);
+﻿Console.Clear();
+Console.WriteLine("Example 19!");
+Thread.Sleep(1000);
+Console.Clear();
+Console.Write("Loading");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(600);
+Console.Write(".");
+Thread.Sleep(1700);
+Console.Clear();
+Console.Write("Enter number: ");
+bool Int = int.TryParse(Console.ReadLine(), out int num);
 int[] array = new int [CountDigit(num)];
 
 if(ItIsPalindrome(FromNumberToArray(array, num)))
